@@ -1,0 +1,34 @@
+verbose, v
+verbose info
+=g_bVerbose = TRUE;
+=
+
+atari
+Atari output file (only lst is created)
+=g_bAtariOut = TRUE;
+=
+
+short
+PC - lst only output (full output otherwise)
+=g_bExtOut = FALSE;
+=
+
+noinverse
+no inverse characters in DATA or REMs
+=g_bNoInverse = TRUE;
+=
+
+bxl
+Basic XL
+=g_Type = BASIC_XL;
+=
+
+bxe
+Basic XE
+=g_Type = BASIC_XE;
+=
+
+tbs
+Turbo Basic
+=g_Type = BASIC_TB;
+=

@@ -1,0 +1,64 @@
+dos2
+mount as Dos2
+=g_dostype = DOS_2;
+=
+
+dos3
+mount as Dos3
+=g_dostype = DOS_3;
+=
+
+mydos, dosm
+mount as MyDos
+=g_dostype = DOS_MY;
+=
+
+spdos, sparta, doss
+mount as SpartaDos
+=g_dostype = DOS_SP;
+=
+
+kboot
+mount as Kboot
+=g_dostype = DOS_KBOOT;
+=
+
+bas2boot, b2b
+mount as Bas2Boot
+=g_dostype = DOS_B2B;
+=
+
+jonw
+mount as JonW
+=g_dostype = DOS_JONW;
+=
+
+robc
+mount as RobC
+=g_dostype = DOS_ROBC;
+=
+
+howf, howfen
+mount as HowFen Dos
+=g_dostype = DOS_HOWF;
+=
+
+boot
+mount as boot
+=g_dostype = DOS_BOOT;
+=
+
+e
+export files
+=g_bListOnly = FALSE;
+=
+
+dir
+export to directory
+path=bRet = SWFN_GETPATH( g_szPath );
+=
+
+dontrepair
+don't repair invalid files automatically
+=g_bRepairAuto = FALSE;
+=

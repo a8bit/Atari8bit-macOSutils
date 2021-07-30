@@ -1,0 +1,21 @@
+d, dis
+disassembles
+=g_bDisassemble = TRUE;
+=
+
+silent, s
+silent operation
+=g_bSilent = TRUE;
+=
+
+gaps
+length of gap fill (hexadecimal)
+=int iTemp;
+hexnum=bRet = SWFN_NUMH( &iTemp );
+=g_wGapFill = iTemp;
+=
+
+split
+split into blocks
+=g_bSplit = TRUE;
+=

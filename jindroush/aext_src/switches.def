@@ -1,0 +1,25 @@
+e, end
+end
+hexnum= bRet = SWFN_GETPATH( szEnd );g_bEndUsed = TRUE;
+=
+
+s, start
+start
+hexnum=bRet = SWFN_GETPATH( szStart );g_bStartUsed = TRUE;
+=
+
+n, length
+length
+hexnum=bRet = SWFN_GETPATH( szLength );g_bLenUsed = TRUE;
+=
+
+oa, atari
+output is Atari block
+=g_bOutputIsAtari = TRUE;
+=
+
+base
+base
+hexnum=bRet = SWFN_NUMH( &g_iBlkBase );
+=g_bUseBase = TRUE;
+=

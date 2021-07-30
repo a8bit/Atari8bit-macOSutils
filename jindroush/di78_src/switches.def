@@ -1,0 +1,49 @@
+xa
+uses XA format for disassembler output
+=g_diss = DISS_XA;
+=
+
+xasm
+uses XASM format for disassembler output
+=g_diss = DISS_XASM;
+=
+
+dasm
+uses DASM format for disassembler output
+=g_diss = DISS_DASM;
+=
+
+undoc_none
+prints one byte statement for undocumented instruction
+=g_undoc = UNDOC_NONE;
+=
+
+undoc_full
+prints decoded undocumented instruction
+=g_undoc = UNDOC_FULL;
+=
+
+disallow_all, dall
+disallows all symbols
+=g_iMemClassAllow = 0;
+=
+
+dumps
+dump symbol table
+=g_bDumpSymbols = TRUE;
+=
+
+db
+disassemble to .BYT statements only
+=g_bDbOnly = TRUE;
+=
+
+justmain,main,mainonly
+disassembles just main bank (if possible)
+=g_bMainOnly = TRUE;
+=
+
+full_cart
+disassembles everything, including header. Works only for DASM
+=g_bFullCart = TRUE;
+=

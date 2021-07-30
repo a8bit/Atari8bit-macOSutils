@@ -1,0 +1,6 @@
+.BYTE "RUN "
+.BYTE $22
+.BYTE "D:"
+.BYTE "A"
+.BYTE ".BAS"
+.BYTE $22

@@ -1,0 +1,64 @@
+v
+verbose output
+=g_bVerbose = TRUE;
+=
+
+atr, a
+output is ATR
+=g_dtypeOut = DISK_ATR;
+=
+
+di
+output is DI
+=g_dtypeOut = DISK_DI;
+=
+
+xfd, x
+output is XFD
+=g_dtypeOut = DISK_XFD;
+=
+
+scp, s
+output is SCP
+=g_dtypeOut = DISK_SCP;
+=
+
+dcm, d
+output is DCM
+=g_dtypeOut = DISK_DCM;
+=
+
+batch, batchmode, b
+batch mode
+=g_bBatchMode = TRUE;
+=
+
+errstop
+in batchmode stop on first error
+=g_bFirstErrStop = TRUE;
+=
+
+over, overwrite
+turns on file overwriting
+=g_bOverWrite = TRUE;
+=
+
+autorepair
+auto repair mode
+=g_bRepairAuto = TRUE;
+=
+
+norepair
+don't repair
+=g_bRepair = FALSE;
+=
+
+test
+only test input files
+=g_bTestOnly = TRUE;
+=
+
+classic
+force to create 'classic' disk formats
+=g_bForceClassic = TRUE;
+=
